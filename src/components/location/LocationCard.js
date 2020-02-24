@@ -1,21 +1,26 @@
 import React from "react";
-// import "./Animal.css";
+import "./Location.css";
 
 const LocationCard = props => {
   return (
     <div className="card">
       <div className="card-content">
-        <picture>
-          <img src={props.location.url} alt="My Dog" />
-        </picture>
-        <h3>Neighborhood: <span className="card-locationname">
-          {props.location.area}
-        </span></h3>
+        <div className="image-div">
+          <img
+            className="card-picture"
+            src={require(`./${props.location.url}`)}
+            alt="Image Failure"
+          />
+        </div>
+        <h3>
+          Neighborhood:{" "}
+          <span className="card-locationname">{props.location.area}</span>
+        </h3>
         <p>Address: {props.location.address}</p>
         <p>Phone: {props.location.phone}</p>
       </div>
     </div>
   );
-}
+};
 
 export default LocationCard;

@@ -2,57 +2,63 @@
   "animals": [
     {
       "id": 1,
-      "name": "Edward",
-      "breed": "Lab",
-      "url": "./Lab.jpeg"
+      "name": "Kitty Baby",
+      "breed": "... kitty",
+      "url": "kittybaby.png"
     },
     {
       "id": 2,
       "name": "Dennis",
       "breed": "Mister Steal Ya Girl",
-      "url": "./haircut.jpg"
+      "url": "haircut.jpg"
     },
     {
       "id": 3,
       "name": "Francis",
       "breed": "Demon Dope Doggy",
-      "url": "./heroin-dog.jpg"
+      "url": "heroin-dog.jpg"
     },
     {
       "id": 4,
       "name": "Kathleen",
       "breed": "Windy Girl",
-      "url": "./windy-boy.png"
+      "url": "windy-boy.png"
+    },
+    {
+      "id": 1,
+      "name": "Edward",
+      "breed": "Lab",
+      "url": "Lab.jpeg"
     }
   ],
   "locations": [
     {
       "id": 1,
       "area": "North Nashville",
-      "address": "500 Poodle Way",
+      "address": "500 Yorkipoo Yard",
       "phone": "(615) Poo-dles",
-      "url": "./North.png"
+      "url": "North.png"
     },
     {
       "id": 2,
       "area": "South Nashville",
-      "address": "600 Yorkipoo Blvd",
+      "address": "600 Belgian Shepadoodle Blvd.",
       "phone": "(615) Dog-bone",
-      "url": "./South.png"
+      "url": "South.png"
     },
     {
       "id": 3,
       "area": "East Nashville",
       "address": "700 Pomapoo Pl.",
       "phone": "(615) Pup-poop",
-      "url": "./East.png"
+      "url": "East.png"
     },
     {
       "id": 4,
       "area": "West Nashville",
       "address": "800 Maltipoo Manor",
       "phone": "(615) Flu-fBoy",
-      "url": "./West.png"
+      "url": "West.png"
     }
   ],
   "employees": [
@@ -60,25 +66,25 @@
       "id": 1,
       "name": "Gershwin",
       "title": "CEO",
-      "url": "./baloon-head.jpg"
+      "url": "baloon-head.jpg"
     },
     {
       "id": 2,
       "name": "Bartholamew",
       "title": "Finance Manager",
-      "url": "./ramen-boy.jpg"
+      "url": "ramen-boy.jpg"
     },
     {
       "id": 3,
       "name": "Karl",
       "title": "Customer Service Specialist",
-      "url": "./spoon-guy.jpeg"
+      "url": "spoon-guy.jpeg"
     },
     {
       "id": 4,
       "name": "Ava",
       "title": "Animal Handler",
-      "url": "./red-head.jpg"
+      "url": "red-head.jpg"
     }
   ],
   "owners": [
@@ -86,24 +92,28 @@
       "id": 1,
       "name": "Jeff",
       "about": "Loves dogs.",
-      "url": "./tree1.jpg" 
+      "phone": "(615) Dog-s4me",
+      "url": "tree1.jpg" 
     },
     {
       "id": 2,
       "name": "Linda & Terrance",
       "about": "Adore dogs.",
-      "url": "./tree2.jpg"
+      "phone": "(615) Luv-dogs",
+      "url": "tree2.jpg"
     },
     {
       "id": 3,
       "name": "Teddy",
       "about": "Thinks dogs are great.",
-      "url": "./tree3.jpeg"
+      "phone": "(615) Pup-boys",
+      "url": "tree3.jpeg"
     },
     {
       "id": 4,
-      "name": "Pete",
+      "name": "Peggy",
       "about": "Loathes dogs.",
-      "url": "./tree4.jpg" }
+      "phone": "(615) Dog-babe",
+      "url": "tree4.jpg" }
   ]
 }

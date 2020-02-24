@@ -41,20 +41,3 @@ address {
 .section-content {
   padding: 1.4em;
 }
-
-.container-cards {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.location-card, .animal-card, .employee-card, .owner-card {
-    height: 200px;
-    margin-bottom: 20px;
-}
-
-.card-image {
-    float: right;
-    height: 200px;
-    margin-right: 50px;
-}

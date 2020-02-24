@@ -2,9 +2,10 @@ import React from "react";
 
 const Home = () => {
   return (
-    <address>
-      Welcome to the Krazy Kennel!
-    </address>
+    <div>
+      <h1>Welcome to the Krazy Kennel!</h1>
+      <p>Honestly not a great place to leave your animal.</p>
+    </div>
   );
 };
 

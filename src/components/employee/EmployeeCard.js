@@ -1,20 +1,24 @@
 import React from "react";
-// import "./Animal.css";
+import "./Employee.css";
 
 const EmployeeCard = props => {
   return (
     <div className="card">
       <div className="card-content">
-        <picture>
-          <img src={props.employee.url} alt="My Dog" />
-        </picture>
-        <h3>Name: <span className="card-petname">
-          {props.employee.name}
-        </span></h3>
+        <div className="image-div">
+          <img
+            className="card-picture"
+            src={require(`./${props.employee.url}`)}
+            alt="Image Failure"
+          />
+        </div>
+        <h3>
+          Name: <span className="card-employeename">{props.employee.name}</span>
+        </h3>
         <p>Title: {props.employee.title}</p>
       </div>
     </div>
   );
-}
+};
 
 export default EmployeeCard;
