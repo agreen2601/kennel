@@ -1,52 +1,20 @@
 import React from "react";
+// import "./Animal.css";
 
-const OwnerCard = () => {
+const OwnerCard = props => {
   return (
     <div className="card">
-      <div className="owner-card">
+      <div className="card-content">
         <picture>
-          <img  className="card-image"  src={require("./tree1.jpg")} alt="My Dog" />
+          <img src={props.owner.url} alt="My Dog" />
         </picture>
-        <h3>
-          Name: <span className="card-owner-name">Jeff</span>
-        </h3>
-        <p>About: Loves dogs.</p>
-      </div>
-      <hr></hr>
-
-      <div className="owner-card">
-        <picture>
-          <img  className="card-image"  src={require("./tree2.jpg")} alt="My Dog" />
-        </picture>
-        <h3>
-          Name: <span className="card-owner-name">Linda & Terrance</span>
-        </h3>
-        <p>About: Adores dogs.</p>
-      </div>
-      <hr></hr>
-
-      <div className="owner-card">
-        <picture>
-          <img  className="card-image"  src={require("./tree3.jpeg")} alt="My Dog" />
-        </picture>
-        <h3>
-          Name: <span className="card-owner-name">Jeff</span>
-        </h3>
-        <p>About: Thinks dogs are great.</p>
-      </div>
-      <hr></hr>
-
-      <div className="owner-card">
-        <picture>
-          <img  className="card-image"  src={require("./tree4.jpg")} alt="My Dog" />
-        </picture>
-        <h3>
-          Name: <span className="card-owner-name">Jeff</span>
-        </h3>
-        <p>About: Loathes dogs.</p>
+        <h3>Name: <span className="card-ownername">
+          {props.owner.name}
+        </span></h3>
+        <p>About: {props.owner.about}</p>
       </div>
     </div>
   );
-};
+}
 
 export default OwnerCard;
