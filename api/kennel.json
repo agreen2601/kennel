@@ -1,12 +1,6 @@
 {
   "animals": [
     {
-      "id": 1,
-      "name": "Kitty Baby",
-      "breed": "... kitty",
-      "url": "kittybaby.png"
-    },
-    {
       "id": 2,
       "name": "Dennis",
       "breed": "Mister Steal Ya Girl",
@@ -22,13 +16,19 @@
       "id": 4,
       "name": "Kathleen",
       "breed": "Windy Girl",
-      "url": "windy-boy.png"
+      "url": "windy-girl.png"
     },
     {
       "id": 1,
       "name": "Edward",
       "breed": "Lab",
       "url": "Lab.jpeg"
+    },
+    {
+      "id": 5,
+      "name": "Kitty Baby",
+      "breed": "...kitty",
+      "url": "kittybaby.png"
     }
   ],
   "locations": [
@@ -42,7 +42,7 @@
     {
       "id": 2,
       "area": "South Nashville",
-      "address": "600 Belgian Shepadoodle Blvd.",
+      "address": "600 Shepadoodle Blvd.",
       "phone": "(615) Dog-bone",
       "url": "South.png"
     },
@@ -93,7 +93,7 @@
       "name": "Jeff",
       "about": "Loves dogs.",
       "phone": "(615) Dog-s4me",
-      "url": "tree1.jpg" 
+      "url": "tree1.jpg"
     },
     {
       "id": 2,
@@ -114,6 +114,7 @@
       "name": "Peggy",
       "about": "Loathes dogs.",
       "phone": "(615) Dog-babe",
-      "url": "tree4.jpg" }
+      "url": "tree4.jpg"
+    }
   ]
 }
