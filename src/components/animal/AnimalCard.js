@@ -10,9 +10,8 @@ const AnimalCard = props => {
           <img className="card-picture" src={require(`./${props.animal.url}`)} />
         </div>
         <h3>
-          Name: <span className="card-animalname">{props.animal.name}</span>
+          Name: <span style={{ color: "darkslategrey" }}>{props.animal.name}</span>
         </h3>
-        <p>Breed: {props.animal.breed}</p>
         <Link to={`/animals/${props.animal.id}`}>
           <button>Details</button>
         </Link>

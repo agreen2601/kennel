@@ -4,30 +4,35 @@
       "id": 2,
       "name": "Dennis",
       "breed": "Mister Steal Ya Girl",
+      "activities": "Doing his hair, stealing ya girl",
       "url": "haircut.jpg"
     },
     {
       "id": 3,
       "name": "Francis",
       "breed": "Demon Dope Doggy",
+      "activities": "Drugs, anger, shooting lasers from eyeballs",
       "url": "heroin-dog.jpg"
     },
     {
       "id": 4,
       "name": "Kathleen",
       "breed": "Windy Girl",
+      "activities": "Frolicking",
       "url": "windy-girl.png"
     },
     {
       "id": 1,
       "name": "Edward",
       "breed": "Lab",
+      "activities": "Very excited",
       "url": "Lab.jpeg"
     },
     {
       "id": 5,
       "name": "Kitty Baby",
       "breed": "...kitty",
+      "activities": "Hello-meringue, staring at fridge, standing between human feet during food prep",
       "url": "kittybaby.png"
     }
   ],

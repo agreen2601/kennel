@@ -16,7 +16,7 @@
   margin-top: 0;
   margin-bottom: 0.5em;
   font-weight: bold;
-  color: rgb(43, 112, 241);
+  color: #516a82;
 }
 
 .card-content p {
@@ -29,9 +29,9 @@
 }
 
 .card button {
-  background-color: cornflowerblue;
+  background-color: #95a5b8;
   border: none;
-  color: cornsilk;
+  color: ghostwhite;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -43,7 +43,7 @@
 }
 
 .card button:hover {
-  background-color: darkblue;
+  background-color: #29558c;
 }
 
 .container-cards {

@@ -1,40 +1,41 @@
 small {
-    font-size: 75%;
-  }
-  
-  header {
-    background-color: darkblue;
-    border: cornflowerblue solid 3px;
-  }
-  
-  .site-title {
-    color: ghostwhite;
-    text-align: center;
-  }
-  
-  nav .container {
-    display: flex;
-    padding: 0;
-    margin-bottom: 0;
-  }
-  
-  nav .container li {
-    flex: 1;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.5em;
-    color: cornsilk;
-    box-sizing: border-box;
-    background-color: cornflowerblue;
-    list-style-type: none;
-  }
-  
-  .nav-link {
-    color: cornsilk;
-    text-decoration: underline;
-    cursor: pointer;
-  }
-  
-  .nav-link:hover {
-    color: maroon;
-  }
+  font-size: 75%;
+}
+
+header {
+  background-color: #95a5b8;
+  border: #516a82 solid 3px;
+  margin-bottom: 5px;
+}
+
+.site-title {
+  color: ghostwhite;
+  text-align: center;
+}
+
+nav .container {
+  display: flex;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+nav .container li {
+  flex: 1;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.5em;
+  color: ghostwhite;
+  box-sizing: border-box;
+  background-color: #29558c;
+  list-style-type: none;
+}
+
+.nav-link {
+  color: ghostwhite;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #8c5b67;
+}
