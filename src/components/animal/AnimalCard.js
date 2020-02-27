@@ -7,7 +7,7 @@ const AnimalCard = props => {
     <div className="card">
       <div className="card-content">
         <div className="image-div">
-          <img className="card-picture" src={require(`./${props.animal.url}`)} />
+          <img className="card-picture" src={require(`./${props.animal.url}`)} alt="No Image"/>
         </div>
         <h3>
           Name: <span style={{ color: "darkslategrey" }}>{props.animal.name}</span>

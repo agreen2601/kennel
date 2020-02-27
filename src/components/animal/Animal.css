@@ -3,7 +3,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
   border-radius: 5px; /* 5px rounded corners */
-  background: aliceblue;
+  background: #d8dded;
   margin-bottom: 2em;
   flex: 0 1 24%;
 }
@@ -16,12 +16,6 @@
   margin-top: 0;
   margin-bottom: 0.5em;
   font-weight: bold;
-  color: #516a82;
-}
-
-.card-content p {
-  font-size: 80%;
-  color: darkslategrey;
 }
 
 .content-petname {
