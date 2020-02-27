@@ -12,15 +12,13 @@ const LocationForm = props => {
     setLocation(stateToChange);
   };
 
-  /*  Local method for validation, set loadingStatus, create location object, invoke the LocationManager post method, and redirect to the full location list
-   */
+
   const constructNewLocation = evt => {
     evt.preventDefault();
     if (location.area === "" || location.address === "" || location.phone === "" || location.url ==="" ) {
       window.alert("Please complete all fields");
     } else {
       setIsLoading(true);
-      // Create the location and redirect user to location list
       LocationManager.post(location).then(() => props.history.push("/locations"));
     }
   };

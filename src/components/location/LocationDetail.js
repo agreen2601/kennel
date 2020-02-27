@@ -7,7 +7,6 @@ const LocationDetail = props => {
   const [isLoading, setIsLoading] = useState(true);
 
   const handleDelete = () => {
-    //invoke the delete function in LocationManger and re-direct to the location list.
     setIsLoading(true);
     LocationManager.delete(props.locationId).then(() =>
       props.history.push("/locations")
@@ -19,7 +18,6 @@ const LocationDetail = props => {
   };
 
   useEffect(() => {
-    //get(id) from LocationManager and hang on to the data; put it into state
     LocationManager.get(props.locationId).then(location => {
       setLocation({
         area: location.area,
