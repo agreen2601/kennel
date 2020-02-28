@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import LocationManager from "../../modules/LocationManager";
-import "../animal/AnimalForm.css";
 
 const LocationForm = props => {
   const [location, setLocation] = useState({ area: "", address: "", phone: "", url: "forgot.jpeg" });

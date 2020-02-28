@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import AnimalManager from "../../modules/AnimalManager";
-import "./AnimalForm.css";
+import "./Animal.css";
 
 const AnimalForm = props => {
   const [animal, setAnimal] = useState({ name: "", breed: "", activities: "", url: "forgot.jpeg" });
@@ -65,6 +65,7 @@ const AnimalForm = props => {
           </div>
           <div className="alignRight">
             <button
+              className="btn"
               type="button"
               disabled={isLoading}
               onClick={constructNewAnimal}

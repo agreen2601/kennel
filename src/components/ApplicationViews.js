@@ -13,7 +13,9 @@ import LocationForm from "./location/LocationForm";
 import EmployeeForm from "./employee/EmployeeForm";
 import OwnerForm from "./owner/OwnerForm";
 import AnimalEditForm from "./animal/AnimalEditForm";
+import LocationEditForm from "./location/LocationEditForm";
 import EmployeeEditForm from "./employee/EmployeeEditForm";
+import OwnerEditForm from "./owner/OwnerEditForm";
 
 
 const ApplicationViews = () => {
@@ -198,7 +200,7 @@ const ApplicationViews = () => {
           }
         }}
       />
-      {/* <Route
+      <Route
         exact
         path="/locations/:locationId(\d+)/edit"
         render={props => {
@@ -208,7 +210,7 @@ const ApplicationViews = () => {
             return <Redirect to="/login" />;
           }
         }}
-      /> */}
+      />
       <Route
         exact
         path="/employees/:employeeId(\d+)/edit"
@@ -220,7 +222,7 @@ const ApplicationViews = () => {
           }
         }}
       />
-      {/* <Route
+      <Route
         exact
         path="/owners/:ownerId(\d+)/edit"
         render={props => {
@@ -230,7 +232,7 @@ const ApplicationViews = () => {
             return <Redirect to="/login" />;
           }
         }}
-      /> */}
+      />
     </React.Fragment>
   );
 };

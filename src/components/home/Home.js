@@ -18,7 +18,7 @@ const Home = () => {
       <h1>Welcome to the Krazy Kennel!</h1>
       <p>Honestly not a great place to leave your animal.</p>
       <h2>Animal Spotlight</h2>
-      <button onClick={refreshSpotlightAnimal}>Reload &#x27f3;</button>
+      <button className="btn spotlight" onClick={refreshSpotlightAnimal}>Respawn &#x27f3;</button>
       {
         spotlightId && <AnimalSpotlight animalId={spotlightId} />
       }

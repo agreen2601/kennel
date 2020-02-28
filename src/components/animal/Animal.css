@@ -1,4 +1,4 @@
-.card {
+.card, .formgrid {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
@@ -22,7 +22,7 @@
   color: darkslategrey;
 }
 
-.card button {
+.card button, .btn {
   background-color: #95a5b8;
   border: none;
   color: ghostwhite;
@@ -36,7 +36,11 @@
   width: 100%;
 }
 
-.card button:hover {
+.spotlight {
+  max-width: 520px;
+}
+
+.card button:hover, .btn:hover {
   background-color: #29558c;
 }
 

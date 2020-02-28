@@ -1,5 +1,4 @@
 import React from "react";
-import "./Owner.css";
 
 const OwnerCard = props => {
   return (

@@ -41,3 +41,20 @@ address {
 .section-content {
   padding: 1.4em;
 }
+
+.animal-spotlight {
+  max-width: 500px;
+  display: flex;
+  border: 1px solid gray;
+  padding: 10px;
+  margin-top: 8px;
+}
+
+.animal-spotlight img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.animal-spotlight p {
+  color: black;
+}

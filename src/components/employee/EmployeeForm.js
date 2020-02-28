@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import EmployeeManager from "../../modules/EmployeeManager";
-import "../animal/AnimalForm.css";
 
 const EmployeeForm = props => {
   const [employee, setEmployee] = useState({ name: "", title: "", url: "forgot.jpeg" });

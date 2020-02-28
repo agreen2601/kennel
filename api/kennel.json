@@ -45,6 +45,13 @@
       "url": "North.png"
     },
     {
+      "id": 2,
+      "area": "South Nashville",
+      "address": "600 Shepadoodle Blvd.",
+      "phone": "(615) Dog-bone",
+      "url": "South.png"
+    },
+    {
       "id": 3,
       "area": "East Nashville",
       "address": "700 Pomapoo Pl.",
@@ -116,3 +123,4 @@
     }
   ]
 }
+

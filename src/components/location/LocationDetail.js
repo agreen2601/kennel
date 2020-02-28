@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import LocationManager from "../../modules/LocationManager";
-import "./LocationDetail.css";
+import "../animal/AnimalDetail.css";
 
 const LocationDetail = props => {
   const [location, setLocation] = useState({ area: "", address: "", phone: "", url: "" });
