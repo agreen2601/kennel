@@ -12,6 +12,9 @@ import AnimalForm from "./animal/AnimalForm";
 import LocationForm from "./location/LocationForm";
 import EmployeeForm from "./employee/EmployeeForm";
 import OwnerForm from "./owner/OwnerForm";
+import AnimalEditForm from "./animal/AnimalEditForm";
+import EmployeeEditForm from "./employee/EmployeeEditForm";
+
 
 const ApplicationViews = () => {
   // Check if credentials are in session storage returns true/false
@@ -33,7 +36,7 @@ const ApplicationViews = () => {
           if (isAuthenticated()) {
             return <Redirect to="/" />;
           } else {
-            return <Login {...props}/>;
+            return <Login {...props} />;
           }
         }}
       />
@@ -82,6 +85,7 @@ const ApplicationViews = () => {
         }}
       />
       <Route
+        exact
         path="/animals/:animalId(\d+)"
         render={props => {
           // Pass the animalId to the AnimalDetailComponent
@@ -98,6 +102,7 @@ const ApplicationViews = () => {
         }}
       />
       <Route
+        exact
         path="/locations/:locationId(\d+)"
         render={props => {
           if (isAuthenticated()) {
@@ -182,6 +187,50 @@ const ApplicationViews = () => {
           }
         }}
       />
+      <Route
+        exact
+        path="/animals/:animalId(\d+)/edit"
+        render={props => {
+          if (isAuthenticated()) {
+            return <AnimalEditForm {...props} />;
+          } else {
+            return <Redirect to="/login" />;
+          }
+        }}
+      />
+      {/* <Route
+        exact
+        path="/locations/:locationId(\d+)/edit"
+        render={props => {
+          if (isAuthenticated()) {
+            return <LocationEditForm {...props} />;
+          } else {
+            return <Redirect to="/login" />;
+          }
+        }}
+      /> */}
+      <Route
+        exact
+        path="/employees/:employeeId(\d+)/edit"
+        render={props => {
+          if (isAuthenticated()) {
+            return <EmployeeEditForm {...props} />;
+          } else {
+            return <Redirect to="/login" />;
+          }
+        }}
+      />
+      {/* <Route
+        exact
+        path="/owners/:ownerId(\d+)/edit"
+        render={props => {
+          if (isAuthenticated()) {
+            return <OwnerEditForm {...props} />;
+          } else {
+            return <Redirect to="/login" />;
+          }
+        }}
+      /> */}
     </React.Fragment>
   );
 };

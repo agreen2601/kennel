@@ -7,14 +7,25 @@ const AnimalCard = props => {
     <div className="card">
       <div className="card-content">
         <div className="image-div">
-          <img className="card-picture" src={require(`./${props.animal.url}`)} alt="No Image"/>
+          <img
+            className="card-picture"
+            src={require(`./${props.animal.url}`)}
+            alt="No Image"
+          />
         </div>
         <h3>
-          Name: <span style={{ color: "darkslategrey" }}>{props.animal.name}</span>
+          Name:{" "}
+          <span style={{ color: "darkslategrey" }}>{props.animal.name}</span>
         </h3>
         <Link to={`/animals/${props.animal.id}`}>
           <button>Details</button>
         </Link>
+        <button
+          type="button"
+          onClick={() => props.history.push(`/animals/${props.animal.id}/edit`)}
+        >
+          Edit
+        </button>
         <button
           type="button"
           onClick={() => props.deleteAnimal(props.animal.id)}

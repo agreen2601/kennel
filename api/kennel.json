@@ -8,6 +8,13 @@
       "url": "haircut.jpg"
     },
     {
+      "id": 3,
+      "name": "Francis",
+      "breed": "Demon Dope Doggy",
+      "activities": "Drugs, anger, shooting lasers from eyeballs",
+      "url": "heroin-dog.jpg"
+    },
+    {
       "id": 4,
       "name": "Kathleen",
       "breed": "Windy Girl",
@@ -36,13 +43,6 @@
       "address": "500 Yorkipoo Yard",
       "phone": "(615) Poo-dles",
       "url": "North.png"
-    },
-    {
-      "id": 2,
-      "area": "South Nashville",
-      "address": "600 Shepadoodle Blvd.",
-      "phone": "(615) Dog-bone",
-      "url": "South.png"
     },
     {
       "id": 3,

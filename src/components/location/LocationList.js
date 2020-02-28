@@ -31,7 +31,7 @@ const LocationList = props => {
             props.history.push("/locations/new");
           }}
         >
-          Add New Location
+          Add new location
         </button>
       </section>
       <div className="container-cards">
@@ -40,6 +40,7 @@ const LocationList = props => {
             key={location.id}
             location={location}
             deleteLocation={deleteLocation}
+            {...props}
           />
         ))}
       </div>

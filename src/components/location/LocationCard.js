@@ -7,13 +7,13 @@ const LocationCard = props => {
     <div className="card">
       <div className="card-content">
         <div className="image-div">
-          <Link to={`/locations/${props.location.id}`}>
+          {/* <Link to={`/locations/${props.location.id}`}>
             <img
               className="card-picture"
               src={require(`./${props.location.url}`)}
               alt="Image Failure"
             />
-          </Link>
+          </Link> */}
         </div>
         <h3>
           Neighborhood:{" "}
@@ -22,6 +22,12 @@ const LocationCard = props => {
         <Link to={`/locations/${props.location.id}`}>
           <button>Details</button>
         </Link>
+        <button
+          type="button"
+          onClick={() => props.history.push(`/locations/${props.location.id}/edit`)}
+        >
+          Edit
+        </button>
         <button
           type="button"
           onClick={() => props.deleteLocation(props.location.id)}

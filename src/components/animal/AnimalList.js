@@ -36,7 +36,7 @@ const AnimalList = props => {
             props.history.push("/animals/new");
           }}
         >
-          Admit Animal
+          Add new animal
         </button>
       </section>
       <div className="container-cards">
@@ -45,6 +45,7 @@ const AnimalList = props => {
             key={animal.id}
             animal={animal}
             deleteAnimal={deleteAnimal}
+            {...props}
           />
         ))}
       </div>

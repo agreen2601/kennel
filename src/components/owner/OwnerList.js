@@ -29,7 +29,7 @@ const OwnerList = props => {
             props.history.push("/owners/new");
           }}
         >
-          Add Owner
+          Add new owner
         </button>
       </section>
       <div className="container-cards">
@@ -38,6 +38,7 @@ const OwnerList = props => {
             key={owner.id}
             owner={owner}
             deleteOwner={deleteOwner}
+            {...props}
           />
         ))}
       </div>
